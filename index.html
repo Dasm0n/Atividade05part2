@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+  
+}
+div {
+    font-size: 25px;
+  width: 500px;
+  height: 100px;
+
+  background-color:aquamarine;
+  animation-name: example;
+  animation-duration: 4s;
+  transition: width 2s;
+
+}
+div:hover{
+  width: 300px;
+  transition-timing-function: ease-in-out;
+  transition: width 2s;
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg);
+  
+  }
+
+@keyframes example {
+  from {background-color: aquamarine;}
+  to {background-color: blue;}
+  
+}
+a:link {
+  color: #13043d;
+}
+a:visited {
+    color: red;
+}
+</style>
+    
+    
+</head>
+<body>
+    <header>
+    
+        <nav>
+            
+            <ul>
+            <li><a href="file:///C:/Users/Conta%201/Documents/WebAtividade5/index.html">Recarregar pagina</a></li>
+            <li><a>Novidades</a></li>
+            <li></li>
+            </ul>
+        </nav>
+
+    </header>
+<main>
+    <section>
+        <br><br>
+       <div>Um viajante no tempo é capturado por camêras</div> 
+        <h4>Esse é uma notícia fictícia</h4>
+        <p>Na ultima sexta-feira foi gravado por camêras de segurança um viajante no tempo em sua maquina do tempo</p>
+    </section>
+    <article>
+        <p>Existem outros relatos de viajantes no tempo como podemos ver no video abaixo</p>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qK2MfPjUvHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <br><a href="https://www.youtube.com/embed/qK2MfPjUvHM">Clique aqui para ir para o Youtube</a>
+    </article>
+</main>
+<footer>
+    <p>Autor: Marina Marçal</p>
+    <p><a href="mailto:mmfmaltaoliver@gmail.com">email: mmfmaltaoliver@gmail.com</a></p>
+  </footer>
+ 
+    
+</body>
+</html>
